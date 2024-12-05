@@ -1,6 +1,6 @@
 {
 	"name": "@react-native-oh-tpl/react-native-largelist",
-	"version": "3.1.0-rc.2-0.0.1",
+	"version": "3.1.0-rc.2-0.0.2",
 	"private": false,
 	"main": "src/index.js",
 	"description": "The best performance large list component which is much better than SectionList for React Native.",
@@ -22,9 +22,9 @@
 		"swipable flatlist"
 	],
 	"bugs": {
-		"url": "https://github.com/bolan9999/react-native-largelist/issues"
+		"url": "https://github.com/react-native-oh-library/react-native-largelist/issues"
 	},
-	"homepage": "https://github.com/bolan9999/react-native-largelist",
+	"homepage": "https://github.com/react-native-oh-library/react-native-largelist",
 	"peerDependencies": {
 		"prop-types": "^15.6.0"
 	},
@@ -36,6 +36,10 @@
 	},
 	"jest": {
 		"preset": "react-native"
+	},
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/",
+		"access": "public"
 	},
 	"harmony": {
 		"alias": "react-native-largelist"
