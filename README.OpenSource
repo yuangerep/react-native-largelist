@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "react-native-largelist",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "3.1.0",
+        "Owner" : "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/bolan9999/react-native-largelist",
+        "Description": "The best large list component for React Native."
+    }
+]
