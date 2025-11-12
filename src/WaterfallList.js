@@ -57,6 +57,7 @@ export class WaterfallList extends React.PureComponent<WaterfallListType> {
         onSizeChange={this._onSizeChange}
         onNativeContentOffsetExtract={this._nativeOffset}
         onScroll={this._onScroll}
+        pageSize={{width: 200, height: 200}}
       >
         {this._renderHeader && this._renderHeader()}
         {this.props.renderEmpty && this.props.renderEmpty()}
@@ -197,6 +198,7 @@ export class WaterfallList extends React.PureComponent<WaterfallListType> {
         onScroll={this._onScroll}
         onNativeContentOffsetExtract={this._nativeOffset}
         onSizeChange={this._onSizeChange}
+        pageSize={{width: 200, height: 200}}
       >
         {this._renderHeader()}
         {columnSummaries.map((summary, index) =>

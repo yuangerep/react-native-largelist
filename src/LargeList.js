@@ -237,6 +237,7 @@ export class LargeList extends React.PureComponent<LargeListPropType> {
         onNativeContentOffsetExtract={this._nativeOffset}
         onScroll={this._onScroll}
         onMomentumScrollEnd={this._onScrollEnd}
+        pageSize={{width: 200, height: 200}}
       >
         {shouldRenderContent &&
           groupIndexes.map((indexes, index) => {
@@ -339,6 +340,7 @@ export class LargeList extends React.PureComponent<LargeListPropType> {
         onSizeChange={this._onSizeChange}
         onNativeContentOffsetExtract={this._nativeOffset}
         onScroll={this._onScroll}
+        pageSize={{width: 200, height: 200}}
       >
         {this._renderHeader && this._renderHeader()}
         {this.props.renderEmpty && this.props.renderEmpty()}
